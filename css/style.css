@@ -19,20 +19,44 @@
 ul {
     list-style: none;
 }
+a {
+text-decoration: none;
+color: currentColor;
+}
 .list {
     color: var(--main-text-color);
     background-color: var(--main-color);
-    font-family: "Roboto",serif;
+    font-family: "Roboto", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+/* WebStudio */
+
+
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
 .nheder {
     font-weight: 500;
     line-height: 1.17;
     letter-spacing: 0.02em;
+    text-decoration: none;
     background-color: var(--main-color);
 }
 
@@ -40,10 +64,19 @@ ul {
     color:var(--titlt-text-color);
     text-decoration: none;
     font-family: Raleway,sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.38;
+    font-style: normal;
 }
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+
+
 
 .blanklink {
     color: var(--titlt-text-color);
@@ -170,7 +203,7 @@ ul {
     color: var(--accent-color);
 }
 /*portfolio*/
-.button-second {
+.btn-secondary {
     color: var(--titlt-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -179,12 +212,12 @@ ul {
     cursor: pointer;
     background-color: var(--accent-second-color);
 }
-.button-second:hover,
-.button-second:focus {
+.btn-secondary:hover,
+.btn-secondary:focus {
     color: var(--main-color);
     background-color: var(--accent-color);
 }
-.current-button {
+.current-btn {
     color: var(--main-color);
     background-color: var(--accent-color);
 }
