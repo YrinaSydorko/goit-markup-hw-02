@@ -1,0 +1,218 @@
+:root {
+/*основной цвет*/
+    --main-text-color:#757575;
+/*цвет заголовков*/
+    --titlt-text-color:#212121;
+    /*белый цвет*/
+    --main-color:#FFFFFF;
+    /*цвет акцента кнопок*/
+    --accent-color:#2196F3;
+    --hover-color:#188CE8;
+    --accent-second-color:#F5F4FA;
+    /*цвет текста footer*/
+    --footer-color:rgba(255,255,255,0.6);
+    /*цвет фона серой секции*/
+    --grey-color:#2F303A;
+    /*цвет фона белой секции*/
+    --main-color:#FFFFFF;
+}
+ul {
+    list-style: none;
+}
+.list {
+    color: var(--main-text-color);
+    background-color: var(--main-color);
+    font-family: "Roboto",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.nheder {
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    background-color: var(--main-color);
+}
+
+.wheder {
+    color:var(--titlt-text-color);
+    text-decoration: none;
+    font-family: Raleway,sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.38;
+}
+
+.blanklink {
+    color: var(--titlt-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.blanklink:hover{
+    color: var(--accent-color);
+}
+
+
+.current {
+    color:var(--accent-color);
+}
+
+
+.info {
+    font-weight: 500;
+    line-height: 1.14;
+}
+
+.mail,
+.tel {
+    color:var(--main-text-color);
+    text-decoration: none;
+}
+
+
+.mail:hover,
+.mail:focus {
+    color:var(--accent-color);
+}
+
+.hero-title {
+    color:var(--main-color);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing:0.06em;
+    background-color:var(--grey-color);
+}
+.button {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.85;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    background-color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+    background-color:#188CE8;
+}
+
+.special-subtitle {
+    color: var(title-text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+.special-subtitle {
+    color: var(--titlt-text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+
+.galery-title {
+    color: var(--titlt-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.team-title {
+    color: var(--titlt-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    }
+    .team {
+        background-color: var(--accent-second-color);
+    }
+    .team-name {
+        color: var(--titlt-text-color);
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.18;
+    }
+
+    .footer {
+        background-color: var(--grey-color);
+        text-decoration: none;
+    }
+.logo-footer {
+    color: var(--main-color);
+    text-decoration: none;
+    font-family: "Releway",sans-serif;
+    font-weight: 400;
+    font-size: 26;
+    line-height: 1.38;
+}
+.address {
+    color: var(--main-color);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.mail-footer {
+    color: var(--footer-color);
+    text-decoration: none;
+    font-style: normal;
+}
+.mail:hover,
+.mail:focus {
+    color: var(--accent-color);
+}
+/*portfolio*/
+.button-second {
+    color: var(--titlt-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.85;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: var(--accent-second-color);
+}
+.button-second:hover,
+.button-second:focus {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+}
+.current-button {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+}
+
+.caption-title {
+    color: var(--titlt-text-color);
+    font-weight: 700;
+    font-size: 18;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.caption-subtitle {
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.nav-list {
+    font-family:  Roboto;
+    color: #000;
+}
+.nav-list:hover {
+    color: black;
+}
+.nav-list:focus {
+    color:blue;
+}
+.portfolio-list {
+    font-family: Roboto;
+    font-size: 6%;
+    color: #212121;
+}
