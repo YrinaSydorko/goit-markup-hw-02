@@ -26,7 +26,7 @@ color: currentColor;
 .list {
     color: var(--main-text-color);
     background-color: var(--main-color);
-    font-family: "Roboto", serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -51,7 +51,7 @@ line-height: 31px;
 
 letter-spacing: 0.03em;
 
-color: #2196F3;
+
 .nheder {
     font-weight: 500;
     line-height: 1.17;
@@ -107,31 +107,44 @@ text-align: left;
 
 
 .mail:hover,
-.mail:focus {
+.mail:focus,
+.tel:hover ,
+.tel:focus {
     color:var(--accent-color);
 }
-
+.hero {
+    background-color:var(--grey-color);
+    text-align: center;
+}
 .hero-title {
+    font-weight: 900;
     color:var(--main-color);
     text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing:0.06em;
-    background-color:var(--grey-color);
+    margin-left: 200;
+    margin-right: 200;
 }
+
 .button {
     color: var(--main-color);
+    text-align: center;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.85;
     letter-spacing: 0.06em;
     cursor: pointer;
     background-color: var(--accent-color);
+    padding-left: 32;
+    padding-right:32;
+    padding-top: 0px;
 }
 .button:hover,
 .button:focus {
-    background-color:#188CE8;
+    background-color:#2196F3;
 }
 
 .special-subtitle {
@@ -152,6 +165,7 @@ text-align: left;
 
 
 .galery-title {
+    text-align: center;
     color: var(--titlt-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -159,6 +173,7 @@ text-align: left;
 }
 
 .team-title {
+    text-align: center;
     color: var(--titlt-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -193,14 +208,17 @@ text-align: left;
     font-size: 14px;
     line-height: 1.7;
 }
-.mail-footer {
-    color: var(--footer-color);
+.mail-footer,
+tel-footer {
+    color: var(--main-text-color);
     text-decoration: none;
     font-style: normal;
 }
-.mail:hover,
-.mail:focus {
-    color: var(--accent-color);
+.mail-footer:hover,
+.tel-footer:hover,
+.mail-footer:focus,
+.tel-footer:focus {
+    color: var(--footer-color);
 }
 /*portfolio*/
 .btn-secondary {
