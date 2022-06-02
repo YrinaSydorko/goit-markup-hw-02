@@ -153,9 +153,9 @@ letter-spacing: 0.03em;
     padding-right:32;
     padding-top: 0px;
 }
-.button:hover,
+.-button:hover,
 .button:focus {
-    background-color:#2196F3;
+    background-color: #188CE8;
 }
 
 .special-subtitle {
