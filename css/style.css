@@ -196,7 +196,7 @@ letter-spacing: 0.03em;
     .team-name {
         color: var(--titlt-text-color);
             font-weight: 500;
-            font-size: 16px;
+            font-size: 14px;
             line-height: 1.18;
     }
 
