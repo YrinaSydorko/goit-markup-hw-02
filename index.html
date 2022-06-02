@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
   rel="stylesheet">
 
-<link rel="stylsheet" href="https://cdnjs.cloadflare.com/ajax/libs/modern-normalize/1.0.0/
+</!--main-text-color<link rel="stylsheet" href="https://cdnjs.cloadflare.com/ajax/libs/modern-normalize/1.0.0/
 modern-normalize.min.css" integrity="'sha-512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/
 CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
 
@@ -20,7 +20,7 @@ CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
   </head>
   <body  class="list">
     <header class="nheder">
-
+<div class="container nheder-container">
       <nav class="nlist">
         <a href="index.html" class="wheder">
           <span style="color:var(--accent-color)">Web</span>Studio</a>
@@ -36,10 +36,11 @@ CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
         <li class="info-list"><a class="mail" href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
         <li class="info-list"><a class="tel"href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
       </ul>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <div>
+        <div class="container">
         <h1 class="hero-title">
           Эффективные решения для вашего бизнеса
         </h1>
@@ -48,6 +49,7 @@ CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
       </section>
       <section class="special">
         <h2 hidden class="special-title">Особенности</h2>
+        <div class="container">
         <ul>
           <li>
             <h3 class="special-subtitle">Внимание к деталям</h3>
@@ -78,9 +80,10 @@ CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <section class="galery">
-        <div>
+        <div class="container" >
           <h2 class="galery-title">Чем мы занимаемся</h2>
 
           <ul>
@@ -90,8 +93,10 @@ CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
           </ul>
         </div>
       </section>
-      <section  class="team">
+      <section class="team section">
+      <div class="container">
         <h2 class="team-title">Наша команда</h2>
+        <div class="imag-team"></div>
         <ul>
           <li>
             <img src="./images/img-1.jpg" alt="Desk top" width="270" />
@@ -114,24 +119,30 @@ CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
               <p class="team-pos">Designer</p>
           </li>
         </ul>
+      </div>
+      </div>
+
       </section>
     </main>
     <footer class="footer">
+      <div class="container">
       <h2 hidden>Address</h2>
-      <a href="index.html" class="logo logo-footer"><span style="color: var(--accent-color)">Web</span>Studio</a>
-            <address>
+          <a href="index.html" class="logo logo-footer">
+            <span style="color:var(--accent-color)">Web</span>Studio</a>
+      <address>
               <ul>
         <li><a href="addres:г. Киев, пр-т Леси Украинки, 26" class="address">г. Киев, пр-т Леси Украинки, 26</a>
         </li>
         </ul>
         
 <ul class="info">
-        <li class="mail"><a href="mailto:info@devstudio.com" class="mail-footer">info@example.com</a>
+        <li class="mail-footer"><a href="mailto:info@devstudio.com" class="mail-second-footer">info@example.com</a>
         </li>
-        <li class="tel"><a href="tel:+380961111111" class="tel-footer">+380991111111</a>
+        <li class="tel-footer"><a href="tel:+380961111111" class="tel-second-footer">+38 099 111 11 11</a>
         </li>
         </ul> 
       </address>
+      </div>
     </footer>
   </body>
 </html>

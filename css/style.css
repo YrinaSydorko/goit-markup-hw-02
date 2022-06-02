@@ -19,6 +19,8 @@
 ul {
     list-style: none;
 }
+li {
+    font-style: normal;}
 a {
 text-decoration: none;
 color: currentColor;
@@ -36,17 +38,7 @@ color: currentColor;
 /* WebStudio */
 
 
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
 /* identical to box height */
 
 letter-spacing: 0.03em;
@@ -69,14 +61,6 @@ letter-spacing: 0.03em;
     line-height: 1.38;
     font-style: normal;
 }
-font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-line-height: 31px;
-letter-spacing: 0.03em;
-text-align: left;
-
-
 
 .blanklink {
     color: var(--titlt-text-color);
@@ -120,7 +104,7 @@ text-align: left;
     font-weight: 900;
     color:var(--main-color);
     text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -192,6 +176,8 @@ text-align: left;
     .footer {
         background-color: var(--grey-color);
         text-decoration: none;
+        font-style: normal;
+        }
     }
 .logo-footer {
     color: var(--main-color);
