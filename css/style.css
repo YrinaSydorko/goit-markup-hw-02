@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Остальной код */
+
+
+
 :root {
 /*основной цвет*/
     --main-text-color:#757575;
@@ -16,6 +26,8 @@
     /*цвет фона белой секции*/
     --main-color:#FFFFFF;
 }
+
+
 ul {
     list-style: none;
 }
@@ -28,7 +40,7 @@ color: currentColor;
 .list {
     color: var(--main-text-color);
     background-color: var(--main-color);
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -67,6 +79,12 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em
 }
 .blanklink:hover{
     color: var(--accent-color);
@@ -76,7 +94,16 @@ letter-spacing: 0.03em;
 .current {
     color:var(--accent-color);
 }
-
+.logo-footer {
+    display: flex;
+    color: var(--main-color);
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.17;
+    margin-right: 0px;
+}
 
 .info {
     font-weight: 500;
@@ -184,7 +211,7 @@ letter-spacing: 0.03em;
     text-decoration: none;
     font-family: "Releway",sans-serif;
     font-weight: 400;
-    font-size: 26;
+    font-size: 26px;
     line-height: 1.38;
 }
 .address {
@@ -229,7 +256,7 @@ tel-footer {
 .caption-title {
     color: var(--titlt-text-color);
     font-weight: 700;
-    font-size: 18;
+    font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
