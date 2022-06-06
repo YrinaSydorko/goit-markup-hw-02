@@ -222,8 +222,8 @@ letter-spacing: 0.03em;
     line-height: 1.7;
 }
 .mail-footer,
-tel-footer {
-    color: var(--main-text-color);
+.tel-footer {
+    color: var(--footer-color);
     text-decoration: none;
     font-style: normal;
 }
@@ -231,7 +231,7 @@ tel-footer {
 .tel-footer:hover,
 .mail-footer:focus,
 .tel-footer:focus {
-    color: var(--footer-color);
+    color: var(--main-color);
 }
 /*portfolio*/
 .btn-secondary {
