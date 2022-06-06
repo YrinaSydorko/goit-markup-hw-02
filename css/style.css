@@ -153,7 +153,7 @@ letter-spacing: 0.03em;
     padding-right:32;
     padding-top: 0px;
 }
-.-button:hover,
+.button:hover,
 .button:focus {
     background-color: #188CE8;
 }
@@ -196,7 +196,7 @@ letter-spacing: 0.03em;
     .team-name {
         color: var(--titlt-text-color);
             font-weight: 500;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.18;
     }
 
